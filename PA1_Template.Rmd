@@ -1,11 +1,5 @@
----
-title: "PA_Template"
-author: "Angel Dzhekov"
-date: "29 февруари 2016 г."
-output: 
-  html_document: 
-    fig_caption: yes
----
+
+
 Week 1 Assignment, Reproducible Research course
 ===============================================
 
@@ -172,6 +166,7 @@ pdf_wend$interval <- rr_bydate$interval
 pdf_wday <- select(pdf_wday, interval, plot_wday) #library(dplyr)
 pdf_wend <- select(pdf_wend, interval, plot_wend)
 ```
+
 
 plot
 
